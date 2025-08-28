@@ -29,6 +29,48 @@ Recognizes static & dynamic gestures in realtime and demonstrates **Human–Mach
 
 ---
 
+## 📂 Project Directory Structure
+
+HAND GESTURE PROJECT
+│── data/
+│   └── raw/
+│       └── dataset.csv
+│
+│── images/
+│
+│── models/
+│   ├── gesture_model.h5          # Trained deep learning model
+│   ├── label_encoder.joblib      # Encoded gesture labels
+│   └── scaler.joblib             # Feature scaler
+│
+│── scripts/
+│   ├── collect_gestures.py       # Script to collect gesture images
+│   ├── hand_features.py          # Extracts hand landmarks/features
+│   ├── predict_image.py          # Predicts gesture from image
+│   ├── preprocess_dataset.py     # Preprocesses dataset for training
+│   ├── realtime_predict.py       # Real-time gesture prediction
+│   ├── train_dl.py               # Trains deep learning model
+│   └── volume_control.py         # Controls system volume using gestures
+│
+│── requirements.txt              # Python dependencies
+│── X_train.npy                   # Training features
+│── y_train.npy                   # Training labels
+│── X_test.npy                    # Test features
+│── y_test.npy                    # Test labels
+
+
+---
+
+## 🚀 Installation
+**1. Clone this repo:**
+- git clone https://github.com/yourusername/hand-gesture-volume-control.git
+- cd hand-gesture-volume-control
+
+**2. Install dependencies:**
+- pip install -r requirements.txt
+
+---
+
 ## 📂 Dataset Collection
 Custom dataset created using **webcam auto-capture**:
 - Press **A** → start capturing frames (500 samples per gesture).  
@@ -88,6 +130,13 @@ Custom dataset created using **webcam auto-capture**:
 
 **6️⃣ Volume Control with Gestures**
 - python scripts/volume_control.py
+
+---
+
+## 📈 Workflow
+- **Data Collection → Preprocessing → Model Training → Gesture Prediction → Volume Control**
+- **Uses hand landmarks as input features.**
+- **Trained deep learning model predicts gesture → maps to volume change.**
 
 ---
 
