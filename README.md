@@ -72,7 +72,7 @@ Custom dataset created using **webcam auto-capture**:
 ## 🚀 Usage
 **1️⃣ Collect Dataset**
 - python scripts/collect_data.py --gesture palm_right
-repeat for all gestures & both hands
+- (repeat for all gestures & both hands)
 
 **2️⃣ Preprocess**
 - python scripts/preprocess.py
