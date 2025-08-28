@@ -30,7 +30,7 @@ Recognizes static & dynamic gestures in realtime and demonstrates **Human–Mach
 ---
 
 ## 📂 Project Directory Structure
-
+```
 HAND GESTURE PROJECT
 │── data/
 │   └── raw/
@@ -57,7 +57,7 @@ HAND GESTURE PROJECT
 │── y_train.npy                   # Training labels
 │── X_test.npy                    # Test features
 │── y_test.npy                    # Test labels
-
+```
 
 ---
 
