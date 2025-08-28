@@ -67,5 +67,41 @@ Custom dataset created using **webcam auto-capture**:
   ```bash
   pip install opencv-python mediapipe tensorflow scikit-learn joblib pycaw comtypes numpy
 
-##🚀 Usage
-1️⃣ Collect Dataset
+---
+
+## 🚀 Usage
+**1️⃣ Collect Dataset**
+- python scripts/collect_data.py --gesture palm_right
+repeat for all gestures & both hands
+
+**2️⃣ Preprocess**
+- python scripts/preprocess.py
+
+**3️⃣ Train**
+- python scripts/train_model.py
+
+**4️⃣ Realtime Prediction (Webcam)**
+- python scripts/realtime_predict.py
+
+**5️⃣ Static Image Prediction**
+- python scripts/predict_image.py
+
+**6️⃣ Volume Control with Gestures**
+- python scripts/volume_control.py
+
+---
+
+## 🔮 Future Enhancements
+
+- **🎵 Media Controls → Play, Pause, Next, Previous.**
+- **🖱️ Air Mouse → Cursor & clicks using gestures.**
+- **🌐 IoT → Smart home device control.**
+- **🧏 Sign Language → Real-time translation into text/speech.**
+- **🕹️ Gesture-Based Games.**
+
+---
+
+## 📜 Conclusion
+
+- This project shows how **computer vision + deep learning** enable **real-time human–machine interaction.**
+- It serves as a strong base for applications in **accessibility, IoT, robotics, AR/VR, and sign language recognition.**
